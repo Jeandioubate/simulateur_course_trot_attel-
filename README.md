@@ -35,4 +35,4 @@ Lancement
 
 - bash
 
-- python course_trot.py
+- python course_trot_attele.py
