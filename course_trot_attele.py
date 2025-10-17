@@ -116,8 +116,8 @@ def play_round(horses, remaining_position):
 def race_ends(horses):
     """Elle vérifie s'il reste des chevaux en course et retourne True seulement si tous les chevaux non disqualifiés
     sont arrivés"""
-    for horses in horses:
-        if not horses['disqualifie'] and not horses['arrive']:
+    for horse in horses:
+        if not horse['disqualifie'] and not horse['arrive']:
             return False  # Il reste au moins un cheval non disqualifié qui n'est pas arrivé
     return True  # Tous les chevaux non disqualifiés sont arrivés.
 
